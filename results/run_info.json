@@ -1,0 +1,12 @@
+{
+  "seed": 42,
+  "window_hours": 6,
+  "n_patients": 39603,
+  "n_features": 280,
+  "within_train": 13951,
+  "within_test": 5979,
+  "cross_train": 19930,
+  "cross_test": 19673,
+  "quick": false,
+  "elapsed_s": 49.5
+}

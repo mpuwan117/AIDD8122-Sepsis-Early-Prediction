@@ -1,0 +1,10 @@
+data/
+results/predictions.csv
+results_dev/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+*.tmp
+.env
+.DS_Store
+*.log
