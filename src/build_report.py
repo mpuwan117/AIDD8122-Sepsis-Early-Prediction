@@ -416,9 +416,10 @@ para(doc, "The complete project source code accompanies this report in the repos
           "(reproducible document generation), together with requirements.txt and README.md. "
           "Raw patient files are deliberately excluded from version control; only the "
           "downloader and analysis code are published.")
-para(doc, "Public repository URL: [TO BE INSERTED BY THE STUDENT BEFORE SUBMISSION]. "
-          "The local repository is ready to be pushed; the accessible link must be inserted "
-          "here to satisfy the submission requirement.", 10.5, True)
+para(doc, "Public repository URL: https://github.com/mpuwan117/AIDD8122-Sepsis-Early-Prediction. "
+          "The repository is public and contains the complete project source code; raw patient "
+          "data are excluded by design (only download and analysis code are published), satisfying "
+          "both the accessibility requirement and the data-privacy constraint.", 10.5, True)
 
 doc.save(OUT)
 print("SAVED:", OUT)
